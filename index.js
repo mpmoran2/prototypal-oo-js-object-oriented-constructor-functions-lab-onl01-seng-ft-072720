@@ -6,19 +6,17 @@ function Scooter(year, color, model){
   this.model = model
 }
 
+//Driver with `name`, `age`, and `experience` properties
+
 function Driver(name, age, experience){
   this.name = name;
   this.age = age;
   this.experience = experience;
 }
 
+//PickupLocation with `address` and `city` properties
+
 function PickupLocation(address, city){
   this.address = address;
   this.city = city;
 }
-
-//Driver with `name`, `age`, and `experience` properties
-
-
-
-//PickupLocation with `address` and `city` properties
